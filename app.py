@@ -685,5 +685,3 @@ def chat_with_ai():
 def index():
     return render_template('dashboard.html')
 
-if __name__ == '__main__':
-    app.run(debug=False)
